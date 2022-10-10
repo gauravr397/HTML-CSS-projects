@@ -8,6 +8,11 @@
   background-color: #191b28;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
+h1 {
+  text-align: center;
+}
+
 .display-box {
   font-family: "Orbitron", sans-serif;
   background-color: #dcdbe1;
