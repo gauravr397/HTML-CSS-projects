@@ -1,65 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Simple Calculator using HTML, CSS and JavaScript</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-   <h1> Calculator</h1> 
-    <table class="calculator">
-      <tr>
-        <td colspan="3">
-          <input class="display-box" type="text" id="result" disabled />
-        </td>
+<html>
 
-        <!-- clearScreen() function clears all the values -->
-        <td>
-          <input type="button" value="C" onclick="clearScreen()" id="btn" />
-        </td>
-      </tr>
-      <tr>
-        <!-- display() function displays the value of clicked button -->
-        <td><input type="button" value="1" onclick="display('1')" /></td>
-        <td><input type="button" value="2" onclick="display('2')" /></td>
-        <td><input type="button" value="3" onclick="display('3')" /></td>
-        <td><input type="button" value="/" onclick="display('/')" /></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="4" onclick="display('4')" /></td>
-        <td><input type="button" value="5" onclick="display('5')" /></td>
-        <td><input type="button" value="6" onclick="display('6')" /></td>
-        <td><input type="button" value="-" onclick="display('-')" /></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="7" onclick="display('7')" /></td>
-        <td><input type="button" value="8" onclick="display('8')" /></td>
-        <td><input type="button" value="9" onclick="display('9')" /></td>
-        <td><input type="button" value="+" onclick="display('+')" /></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="." onclick="display('.')" /></td>
-        <td><input type="button" value="0" onclick="display('0')" /></td>
+<head>
+	<title>Brain Seed Community</title>
+	<h1>Brain Seed Community</h1>
 
-        <!-- calculate() function evaluates the mathematical expression -->
-        <td>
-          <input type="button" value="=" onclick="calculate()" id="btn" />
-        </td>
-        <td><input type="button" value="*" onclick="display('*')" /></td>
-      </tr>
-    </table>
-    <div class="projects">
-      <div>
-        <a href="./WeatherProject/index.html">Find Weather</a>
-      </div>
-      <div>
-        <a href="./rock_paper_scirros/index.html">Play Rock-Paper-Scissors</a>
-      </div>
-    </div>
-    
-    
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.jpeg">
+			</div>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#About Us">About Us</a></li>
+			<li><a href="#Blog">Blog</a></li>
+			<li><a href="#Contact">Contact</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="About Us">About Us</h1>
+				<p class="text-small">
+					We at Brain Seed COmmunity are working for the upliftment of all the members
+					and for the betterment of society.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nesciunt!
+					We at Brain Seed COmmunity are working for the upliftment of all the members
+					and for the betterment of society.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nesciunt!
+					We at Brain Seed COmmunity are working for the upliftment of all the members
+					and for the betterment of society.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nesciunt!
+				
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="Blog">
+					BLog
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language. It
+					was initially developed by Dennis Ritchie
+					as a system programming language to write
+					operating system. The main features of C
+					language include low-level access to memory,
+					simple set of keywords, and clean style,
+					these features make C language suitable for
+					system programming like operating system or
+					compiler development.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					Voluptates ratione adipisci ut nam reiciendis velit accusantium consequuntur 
+					mollitia, eveniet laboriosam deleniti quibusdam? Animi necessitatibus expedita
+					
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big" id="Contact"> Contact</h1>
+
+			<p class="sectionSubTag text-small">
+			Email-abc@ghnmail.com<br>
+			Phone=+324 002154<br>
+			Mobile=879825642
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src= "contact.jfif" alt="lContactimage">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved<br>
+			Made with &hearts; by Roshan 2022
+		</p>
+
+
+	</footer>
+</body>
+
 </html>
