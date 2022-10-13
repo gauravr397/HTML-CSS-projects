@@ -13,6 +13,18 @@ h1 {
   text-align: center;
 }
 
+a:link, a:visited {
+  background-color: #171aaada;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
 .display-box {
   font-family: "Orbitron", sans-serif;
   background-color: #dcdbe1;
